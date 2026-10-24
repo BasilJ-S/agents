@@ -27,4 +27,6 @@ EARS, one per line, numbered so PRs can cite them:
 What surprised us or went wrong, and the skill or AGENTS.md line it should become.
 ```
 
+Record each decision as a comment on the issue: the decision, the options considered, and why. Link it from the section it changes.
+
 Before closing an issue, fill in "Lessons learned" and open a PR that adds each lesson to the skill or `AGENTS.md` it names.
