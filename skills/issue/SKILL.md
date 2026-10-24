@@ -27,6 +27,6 @@ EARS, one per line, numbered so PRs can cite them:
 What surprised us or went wrong, and the skill or AGENTS.md line it should become.
 ```
 
-Record each decision as a comment on the issue: the decision, the options considered, and why. Link it from the section it changes.
+Keep the issue body current: it always states the latest design, so edit it whenever a decision changes it. Record each decision as a comment of a few sentences at most: the decision, the options considered, and why.
 
 Before closing an issue, fill in "Lessons learned" and open a PR that adds each lesson to the skill or `AGENTS.md` it names.
