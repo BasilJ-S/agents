@@ -7,7 +7,7 @@ The repo root is one plugin, `core`, in the marketplace `agent-kit`. Both tools 
 | Path | What | Used by |
 | - | - | - |
 | `AGENTS.md` | Generic working rules and review principles | Both, via the SessionStart hook |
-| `skills/` | `issue`, `steward`, `start-task`, `review-pr`, `visualize` | Both |
+| `skills/` | `grill`, `issue`, `steward`, `start-task`, `review-pr`, `visualize` | Both |
 | `roles/` | Plain role prompts: implementer, planner | Both |
 | `agents/` | Claude subagents: the two roles plus four Sonnet reviewers | Claude |
 | `hooks/hooks.json` | SessionStart: loads `AGENTS.md` | Both |

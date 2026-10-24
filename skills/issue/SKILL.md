@@ -7,13 +7,14 @@ Every issue has these sections, in order:
 
 ```markdown
 ## What
+North star: one line on the outcome.
 The problem or goal, in a few sentences.
 
 ## Scope
 In scope and out of scope, as bullets.
 
 ## Requirements
-EARS, one per line, numbered so PRs can cite them:
+EARS, one per line, numbered so PRs can cite them. Together they are the definition of done:
 - R1. The <system> shall <response>.
 - R2. When <trigger>, the <system> shall <response>.
 - R3. While <state>, the <system> shall <response>.
