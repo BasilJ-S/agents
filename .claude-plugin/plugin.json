@@ -1,0 +1,6 @@
+{
+  "name": "basil-agents",
+  "description": "PR review with parallel reviewer subagents, and a visual explainer of work done.",
+  "version": "0.1.0",
+  "author": { "name": "Basil J" }
+}

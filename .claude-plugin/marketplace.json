@@ -1,0 +1,11 @@
+{
+  "name": "basil-agents",
+  "owner": { "name": "Basil J" },
+  "plugins": [
+    {
+      "name": "basil-agents",
+      "source": "./",
+      "description": "PR review with parallel reviewer subagents, and a visual explainer of work done."
+    }
+  ]
+}
