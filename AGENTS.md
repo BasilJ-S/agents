@@ -1,6 +1,21 @@
-# AGENTS.md
+# AGENTS.md (agent-kit)
 
-Shared principles for the agents and skills in this plugin. Agents and skills reference sections here; do not restate them elsewhere.
+Generic working rules, loaded into every session by this kit's SessionStart hook. Project rules live in each project's own `AGENTS.md` and win on conflict. Skills, roles and agents reference sections here; do not restate them.
+
+## Working rules
+
+- Work on a branch and open a **draft** pull request. Never push to `main`.
+- Nobody merges their own work. Only the maintainer merges, squashing unless asked otherwise, and deletes the branch.
+- Do not commit, push or merge without the maintainer's go-ahead for that change.
+- Fix warnings and failing checks; never silence or skip them.
+- Commit messages: imperative one-line summary, body explains why.
+- This repo is public. Never commit secrets, tokens or personal data.
+
+## Roles
+
+- **Implementer**: `roles/implementer.md`
+- **Planner**: `roles/planner.md`
+- **Maintainer**: the human. Merges.
 
 ## Review principles
 
