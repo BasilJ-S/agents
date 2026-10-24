@@ -4,6 +4,7 @@ Generic working rules, loaded into every session by this kit's SessionStart hook
 
 ## Working rules
 
+- Track work in issues using the `issue` skill's format.
 - Work on a branch and open a **draft** pull request. Never push to `main`.
 - Nobody merges their own work. Only the maintainer merges, squashing unless asked otherwise, and deletes the branch.
 - Do not commit, push or merge without the maintainer's go-ahead for that change.
