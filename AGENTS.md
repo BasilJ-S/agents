@@ -9,6 +9,7 @@ Generic working rules, loaded into every session by this kit's SessionStart hook
 - Nobody merges their own work. Only the maintainer merges, squashing unless asked otherwise, and deletes the branch.
 - Do not commit, push or merge without the maintainer's go-ahead for that change.
 - Fix warnings and failing checks; never silence or skip them.
+- When validating a change that can write data, check the stored state before and after, not just what is on screen.
 - Commit messages: imperative one-line summary, body explains why.
 - This repo is public. Never commit secrets, tokens or personal data.
 
