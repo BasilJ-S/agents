@@ -1,0 +1,7 @@
+{
+  "name": "core",
+  "description": "Shared working rules, roles, review and PR skills.",
+  "version": "0.2.0",
+  "author": { "name": "Basil J" },
+  "repository": "https://github.com/BasilJ-S/agents"
+}

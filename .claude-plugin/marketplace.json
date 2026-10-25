@@ -1,0 +1,12 @@
+{
+  "name": "agent-kit",
+  "owner": { "name": "Basil J" },
+  "description": "Shared agent setup for Claude Code and Codex.",
+  "plugins": [
+    {
+      "name": "core",
+      "source": "./",
+      "description": "Shared working rules, roles, review and PR skills."
+    }
+  ]
+}
