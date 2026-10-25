@@ -13,27 +13,19 @@ The repo root is one plugin, `core`, in the marketplace `agent-kit`. Both tools 
 | `hooks/hooks.json` | SessionStart: loads `AGENTS.md` | Both |
 | `codex/` | Codex install notes and role installer | Codex |
 
-## Claude Code
+## Install
 
-On a Mac:
+Once per machine or cloud environment, not per session. On your Mac, or as a cloud environment's setup script (Claude at claude.ai/code, Codex in its environment settings):
 
 ```
-/plugin marketplace add BasilJ-S/agents
-/plugin install core@agent-kit
+curl -fsSL https://raw.githubusercontent.com/BasilJ-S/agents/main/bootstrap.sh | sh
 ```
 
-In a project, commit this to `.claude/settings.json` so cloud sessions get it too (they only see what's committed, never your local `~/.claude`):
+It installs the plugin for whichever of Claude Code and Codex is present, plus the Codex roles. Re-running is safe. Set `AGENT_KIT_REF=<branch>` to install from a branch.
 
-```json
-{
-  "extraKnownMarketplaces": {
-    "agent-kit": { "source": { "source": "github", "repo": "BasilJ-S/agents" } }
-  },
-  "enabledPlugins": { "core@agent-kit": true }
-}
-```
+A repo's `.claude/settings.json` `enabledPlugins` does not install plugins in Claude cloud sessions, so use the setup script there.
 
-Add a one-line `CLAUDE.md` containing `@AGENTS.md` so Claude also loads the project's own `AGENTS.md`.
+Add a one-line `CLAUDE.md` containing `@AGENTS.md` to a project so Claude also loads the project's own `AGENTS.md`.
 
 ## Codex
 

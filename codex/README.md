@@ -1,6 +1,6 @@
 # Codex
 
-Checked against codex-cli 0.164.0. Codex reads this repo's `.claude-plugin/` marketplace and plugin manifests as they are.
+Checked against codex-cli 0.164.0. Codex reads this repo's `.claude-plugin/` marketplace and plugin manifests as they are. `../bootstrap.sh` runs all of the steps below.
 
 ```
 codex plugin marketplace add BasilJ-S/agents
